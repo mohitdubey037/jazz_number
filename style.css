@@ -980,7 +980,8 @@ section .p1 p, section .p2 p {
 @media (max-width: 360px) {
     .image_with_para_parent {
         margin-top: 1rem;
-        padding: 0 1rem;
+        /* padding: 0 1rem; */
+        padding: 0;
         grid-row-gap: 1rem;
     }
     .image_with_para {
@@ -1043,8 +1044,8 @@ section .p1 p, section .p2 p {
         margin-top: 0.5rem;
     }
     .last-section {
-        padding: 1rem;
         padding: 0 2rem;
+        margin-top: 2rem;
     }
     .number_div {
         font-size: 16px;
@@ -1058,9 +1059,6 @@ section .p1 p, section .p2 p {
     .contact {
         font-size: 16px;
         margin-bottom: 0;
-    }
-    #contactUs_id {
-        margin-top: 2rem;
     }
     .corousal_nav {
         left: 35.5%;
