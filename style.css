@@ -914,6 +914,7 @@ section .p1 p, section .p2 p {
     }
     .basic_intro_desc {
         font-size: 12px;
+        text-align: start;
     }
     .why_we_heading {
         font-size: 16px;
@@ -923,16 +924,20 @@ section .p1 p, section .p2 p {
     }
     .why-we_ans {
         font-size: 12px;
+        text-align: start;
     }
     .portfolio_desc {
         font-size: 12px;
         padding: 0 2rem;
+        text-align: start;
     }
     .portfolio_child {
         font-size: 16px;
     }
     .contact-desc {
         font-size: 12px;
+        padding: 0;
+        text-align: start;
     }
     .last-section {
         padding: 1rem;
@@ -968,6 +973,7 @@ section .p1 p, section .p2 p {
     .about_us_paragraph p {
         font-size: 12px;
         padding: 0 2rem;
+        text-align: start;
     }
     .about_us {
         margin-top: 9rem;
@@ -985,6 +991,7 @@ section .p1 p, section .p2 p {
         font-size: 12px;
         padding: 0px 30px;
         margin-top: 0;
+        text-align: start;
     }
     .downImg_container {
         grid-row-gap: 1rem;
@@ -1036,5 +1043,8 @@ section .p1 p, section .p2 p {
     } */
     .some_detail_description {
         height: 40px;
+    }
+    .image_with_para_parent {
+        margin-top: 1rem;
     }
 }
