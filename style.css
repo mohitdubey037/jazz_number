@@ -556,10 +556,10 @@ section .p1 p, section .p2 p {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
-    line-height: 150%;
     /* identical to box height, or 108px */
     text-transform: capitalize;
     color: #339C2A;
+    margin-bottom: 0;
 }
 
 .contact-desc {
@@ -629,23 +629,67 @@ section .p1 p, section .p2 p {
 
 @media (max-width: 992px) {
     .img_container div:nth-child(2) {
-        width: 76%;
+        width: 74%;
     }
     .functionality_div div:nth-child(2) {
-        width: 60%;
+        width: 74%;
     }
     .brand_container {
         padding: 30px;
     }
+    .functionality_div {
+        width: 46%;
+    }    
     .functionality_container {
-        padding: 2rem 3rem;
+        padding: 0rem 2rem;
+        margin-top: 2rem;
         margin-bottom: 0;
+    }
+    .about_us_paragraph p {
+        padding: 0 2rem;
+        text-align: justify;
     }
     .functionality_div {
         height: 163px;
     }
     .about_us {
-        margin-top: 11rem;
+        margin-top: 6rem;
+    }
+    .basic_intro_child {
+        padding: 0rem 2rem;
+    }
+    .basic_intro_desc {
+        margin-top: 0.5rem;
+        text-align: justify;
+    }
+    .two_paragraph {
+        margin-top: 2rem;
+    }
+    section .p2 {
+        padding: 0px 2rem;
+        margin-top: 0.5rem;
+        text-align: justify;
+    }
+    .why-we_ans {
+        padding: 0 0rem;
+        margin-top: 0.5rem;
+    }
+    .portfolio {
+        margin-top: 2rem;
+    }
+    .portfolio_desc {
+        padding: 0 2rem;
+        margin-top: 0.5rem;
+        text-align: justify;
+    }
+    .last-section {
+        margin-top: 2rem;
+    }
+    .contact-desc {
+        margin-top: 0.5rem;
+    }
+    .image_with_para_parent {
+        margin-top: 0.5rem;
     }
 }
 
