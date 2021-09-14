@@ -985,8 +985,7 @@ section .p1 p, section .p2 p {
         grid-row-gap: 1rem;
     }
     .image_with_para {
-        width: 49%;
-        justify-content: space-between;
+        width: 100%;
     }
     .line {
         display: none;
@@ -1127,9 +1126,9 @@ section .p1 p, section .p2 p {
     .acccordian_self-made {
         padding: 0rem 2rem 2rem 3rem;
     }
-    .some_detail_description {
+    /* .some_detail_description {
         height: 40px;
-    }
+    } */
     /* .last_address {
         margin-left: 0.5rem;
     } */
