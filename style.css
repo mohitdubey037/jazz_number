@@ -580,6 +580,7 @@ section .p1 p, section .p2 p {
 .image_with_para_parent {
     display: flex;
     width: 100%;
+    margin-top: 0.5rem;
 }
 
 .image_with_para {
@@ -626,7 +627,7 @@ section .p1 p, section .p2 p {
 .line {
     width: 1px;
     background-color: black;
-    height: 200px;
+    height: 150px;
 }
 
 /* responsiveness */
@@ -1047,13 +1048,11 @@ section .p1 p, section .p2 p {
         display: flex;
         justify-content: center;
     }
-    .about_us_paragraph {
-        margin-top: 0.5rem;
-    }
     .about_us_paragraph p {
         font-size: 12px;
         padding: 0 2rem;
         text-align: start;
+        margin-top: 0.5rem;
     }
     .about_us {
         margin-top: 9rem;
