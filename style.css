@@ -102,7 +102,7 @@ section .p1 {
 }
 
 section .p2 {
-    padding: 0px 80px;
+    padding: 0px 104px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
@@ -111,7 +111,7 @@ section .p2 {
     text-transform: capitalize;
     color: #3A3A3A;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.5rem;
 }
 
 section .p1 p, section .p2 p {
@@ -149,10 +149,11 @@ section .p1 p, section .p2 p {
     text-transform: capitalize;
     color: #3A3A3A;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .two_paragraph {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .downImg_section {
@@ -272,7 +273,7 @@ section .p1 p, section .p2 p {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    grid-row-gap: 3rem;
+    grid-row-gap: 2rem;
 }
 
 .why_we {
@@ -300,6 +301,7 @@ section .p1 p, section .p2 p {
     text-transform: capitalize;
     color: #3A3A3A;
     padding: 0px 80px;
+    margin-top: 0.5rem;
 }
 
 .functionality_div>div>img {
@@ -511,11 +513,12 @@ section .p1 p, section .p2 p {
     text-align: center;
     text-transform: capitalize;
     color: #3A3A3A;
-    padding: 15px 90px;
+    padding: 0px 90px;
+    margin-top: 0.5rem;
 }
 
 .portfolio {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -539,7 +542,8 @@ section .p1 p, section .p2 p {
     text-align: center;
     text-transform: capitalize;
     color: #3A3A3A;
-    padding: 15px 80px;
+    padding: 0 80px;
+    margin-top: 0.5rem;
 }
 
 /* last section */
@@ -549,13 +553,13 @@ section .p1 p, section .p2 p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .contact {
     font-family: 'Roboto';
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     /* identical to box height, or 108px */
     text-transform: capitalize;
     color: #339C2A;
@@ -566,11 +570,11 @@ section .p1 p, section .p2 p {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
     text-align: center;
     text-transform: capitalize;
     color: #3A3A3A;
-    padding: 15px;
+    padding: 0 2rem;
+    margin-top: 0.5rem;
 }
 
 .image_with_para_parent {
