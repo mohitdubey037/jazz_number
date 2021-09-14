@@ -323,7 +323,7 @@ section .p1 p, section .p2 p {
     align-items: center;
     margin-bottom: 2%;
     margin-top: 3rem;
-    background: #339C2A;
+    background-color: #57805354;
     height: 150px;
 }
 
