@@ -902,6 +902,36 @@ section .p1 p, section .p2 p {
     .corousal {
         height: 200px;
     }
+    .rise_to_height {
+        font-size: 12px;
+    }
+    .basic_intro_child {
+        padding: 0rem 2rem;
+    }
+    .basic_intro_desc {
+        font-size: 12px;
+    }
+    .why_we_heading {
+        font-size: 16px;
+    }
+    .about_us_heading {
+        font-size: 16px;
+    }
+    .why-we_ans {
+        font-size: 12px;
+    }
+    .portfolio_desc {
+        font-size: 12px;
+    }
+    .portfolio_child {
+        font-size: 16px;
+    }
+    .contact-desc {
+        font-size: 12px;
+    }
+    .contact {
+        font-size: 16px;
+    }
     .corousal_nav {
         left: 35.5%;
     }
@@ -909,6 +939,9 @@ section .p1 p, section .p2 p {
         width: 34%;
         display: flex;
         justify-content: center;
+    }
+    .about_us_paragraph p {
+        font-size: 12px;
     }
     section .p1 {
         font-size: 16px;
@@ -940,7 +973,7 @@ section .p1 p, section .p2 p {
         font-size: 11px;
     }
     .functionality_container {
-        padding: 4rem 2rem;
+        padding: 0rem 2rem;
     }
     .functionality_div {
         width: 100%;
