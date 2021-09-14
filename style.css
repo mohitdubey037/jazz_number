@@ -1051,6 +1051,9 @@ section .p1 p, section .p2 p {
     .some_detail_description {
         height: 40px;
     }
+    .last_address {
+        margin-left: 0.5rem;
+    }
     .image_with_para_parent {
         margin-top: 1rem;
     }
