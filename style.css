@@ -765,7 +765,7 @@ section .p1 p, section .p2 p {
         margin-top: 2rem;
         margin-bottom: 0;
     }
-    .about_us_paragraph p {
+    .about_us_paragraph {
         padding: 0 2rem;
         text-align: justify;
     }
@@ -878,7 +878,7 @@ section .p1 p, section .p2 p {
         margin-top: 9rem;
         font-size: 25px;
     }
-    .about_us_paragraph p {
+    .about_us_paragraph {
         padding: 0 2rem;
         font-size: 20px;
         margin-top: 0.5rem;
@@ -1048,7 +1048,7 @@ section .p1 p, section .p2 p {
         margin-top: 0.5rem;
         text-align: start;
     }
-    .about_us_paragraph p {
+    .about_us_paragraph {
         padding: 0 2rem;
         margin-top: 0.5rem;
         font-size: 16px;
@@ -1181,7 +1181,7 @@ section .p1 p, section .p2 p {
         display: flex;
         justify-content: center;
     }
-    .about_us_paragraph p {
+    .about_us_paragraph {
         font-size: 12px;
         padding: 0 2rem;
         text-align: start;
@@ -1224,11 +1224,15 @@ section .p1 p, section .p2 p {
         padding: 0rem 2rem;
         grid-row-gap: 1rem;
     }
+    .functionality_div_parent {
+        padding: 0;
+    }
     .short_desc {
         width: 100%;
     }
     .functionality_div {
         width: 100%;
+        height: 95px;
     }
     .brand_container>div>img {
         width: 72%;
