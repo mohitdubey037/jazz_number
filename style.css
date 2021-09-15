@@ -920,7 +920,6 @@ section .p1 p, section .p2 p {
         margin-bottom: 0;
     }
     .contact-desc {
-        /* padding: 1rem; */
         padding: 0 2rem;
         margin-top: 0.5rem;
         font-size: 20px;
@@ -976,10 +975,13 @@ section .p1 p, section .p2 p {
         font-size: 20px;
     }
     .about_us {
-        margin-top: 8rem;
+        margin-top: 9rem;
     }
     .portfolio {
         margin-top: 2rem;
+    }
+    .portfolio, .how_we_work {
+        margin-top: 1rem;
     }
     .basic_info {
         font-size: 20px;
@@ -1007,6 +1009,12 @@ section .p1 p, section .p2 p {
     }
     .functionality_container {
         padding: 0rem 2.5rem;
+    }
+    .functionality_div_parent {
+        padding: 0;
+    }
+    .div_4 {
+        margin-top: 1rem;
     }
     .functionality_div {
         width: 100%;
@@ -1089,6 +1097,9 @@ section .p1 p, section .p2 p {
         padding: 0 1rem;
         grid-row-gap: 1rem;
     }
+    .downImg_section {
+        margin-top: 1rem;
+    }
     .business_card {
         padding: 0 2rem;
         grid-row-gap: 1rem;
@@ -1099,19 +1110,20 @@ section .p1 p, section .p2 p {
         padding: 1rem;
     }
     .business_card>div>p:nth-child(1) {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .business_card>div>p:nth-child(2) {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .business_card>div>p:nth-child(3) {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .technologies_we_use, .industries_we_use {
         margin-top: 2rem;
     }
     .technologies, .industries {
         margin-top: 1rem;
+        justify-content: space-between;
     }
     .technologies>div {
         flex-direction: column;
@@ -1126,6 +1138,17 @@ section .p1 p, section .p2 p {
     }
     .technologies>div>img, .industries>div>img {
         width: 30px;
+    }
+    .portfolio_child, .how_we_work_heading, .technologies_desc, .industries_desc {
+        font-size: 20px;
+    }
+    .how_we_work_desc {
+        font-size: 16px;
+    }
+    .technologies_header, .industries_header {
+        padding: 0 2rem;
+        justify-content: center;
+        font-size: 16px;
     }
 }
 
