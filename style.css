@@ -107,11 +107,10 @@ section .p2 {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
     text-transform: capitalize;
     color: #3A3A3A;
-    text-align: center;
     margin-top: 0.5rem;
+    text-align: justify;
 }
 
 section .p1 p, section .p2 p {
@@ -148,19 +147,19 @@ section .p1 p, section .p2 p {
     font-size: 18px;
     text-transform: capitalize;
     color: #3A3A3A;
-    text-align: center;
     margin-top: 0.5rem;
+    text-align: justify;
 }
 
 .two_paragraph {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .downImg_section {
     display: flex;
     flex-direction: column;
     grid-row-gap: 4rem;
-    margin: 3% 2% 2% 2%;
+    margin-top: 3rem;
 }
 
 .downImg_container {
@@ -169,6 +168,7 @@ section .p1 p, section .p2 p {
     align-items: center;
     flex-wrap: wrap;
     grid-row-gap: 3rem;
+    padding: 0 2rem;
 }
 
 .img_container div:nth-child(2) {
@@ -246,8 +246,7 @@ section .p1 p, section .p2 p {
     display: flex;
     flex-direction: column;
     grid-row-gap: 2rem;
-    margin: 0% 0% 4% 0%;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .functionality_div {
@@ -274,6 +273,7 @@ section .p1 p, section .p2 p {
     align-items: center;
     flex-wrap: wrap;
     grid-row-gap: 2rem;
+    padding: 0 2rem;
 }
 
 .why_we {
@@ -296,12 +296,11 @@ section .p1 p, section .p2 p {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
-    text-align: center;
     text-transform: capitalize;
     color: #3A3A3A;
     padding: 0px 80px;
     margin-top: 0.5rem;
+    text-align: center;
 }
 
 .functionality_div>div>img {
@@ -310,7 +309,7 @@ section .p1 p, section .p2 p {
 }
 
 .functionality_div div:nth-child(2) {
-    width: 81%;
+    width: 82%;
 }
 
 .short_desc {
@@ -321,7 +320,6 @@ section .p1 p, section .p2 p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 2%;
     margin-top: 3rem;
     background-color: #57805354;
     height: 150px;
@@ -505,20 +503,19 @@ section .p1 p, section .p2 p {
     text-align: center;
 }
 
-.about_us_paragraph p {
+.about_us_paragraph {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
-    text-align: center;
     text-transform: capitalize;
+    text-align: justify;
     color: #3A3A3A;
     padding: 0px 90px;
     margin-top: 0.5rem;
 }
 
 .portfolio {
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -538,12 +535,129 @@ section .p1 p, section .p2 p {
     font-family: 'Roboto';
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
-    text-align: center;
     text-transform: capitalize;
     color: #3A3A3A;
-    padding: 0 80px;
+    padding: 0 90px;
     margin-top: 0.5rem;
+    text-align: justify;
+}
+
+.how_we_work {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.how_we_work_heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #339C2A;
+}
+
+.how_we_work_desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+.business_card {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.business_card>div {
+    width: 22%;
+    padding: 1rem;
+    box-shadow: 0px 2px 10px 0px rgb(181 180 180 / 50%);
+}
+
+.business_card>div>p:nth-child(1) {
+    font-size: 1.7rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.business_card>div>p:nth-child(2) {
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.business_card>div>p:nth-child(3) {
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-transform: capitalize;
+    margin-top: 0.8rem;
+}
+
+.technologies_we_use, .industries_we_use {
+    margin-top: 4rem;
+}
+
+.technologies, .industries {
+    display: flex;
+    padding: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    justify-content: center;
+}
+
+.technologies_desc, .industries_desc {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #339C2A;
+    display: flex;
+    justify-content: center;
+}
+
+.technologies_header, .industries_header {
+    padding: 0 5rem;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+
+.technologies>div, .industries>div {
+    border: 2px solid red;
+    width: 30%;
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #CBC9C942;
+}
+
+.industries > div {
+    padding: 20px 10px;
+}
+
+.technologies>div>img, .industries>div>img {
+    width: 40px;
 }
 
 /* last section */
@@ -553,7 +667,7 @@ section .p1 p, section .p2 p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .contact {
@@ -580,7 +694,7 @@ section .p1 p, section .p2 p {
 .image_with_para_parent {
     display: flex;
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
 }
 
