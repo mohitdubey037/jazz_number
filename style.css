@@ -652,7 +652,7 @@ section .p1 p, section .p2 p {
     border: 2px solid #CBC9C942;
 }
 
-.industries > div {
+.industries>div {
     padding: 20px 10px;
 }
 
@@ -1089,12 +1089,49 @@ section .p1 p, section .p2 p {
         padding: 0 1rem;
         grid-row-gap: 1rem;
     }
+    .business_card {
+        padding: 0 2rem;
+        grid-row-gap: 1rem;
+        margin-top: 1rem;
+    }
+    .business_card>div {
+        width: 100%;
+        padding: 1rem;
+    }
+    .business_card>div>p:nth-child(1) {
+        font-size: 0.8rem;
+    }
+    .business_card>div>p:nth-child(2) {
+        font-size: 0.8rem;
+    }
+    .business_card>div>p:nth-child(3) {
+        font-size: 0.7rem;
+    }
+    .technologies_we_use, .industries_we_use {
+        margin-top: 2rem;
+    }
+    .technologies, .industries {
+        margin-top: 1rem;
+    }
+    .technologies>div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .technologies>div, .industries>div {
+        padding: 12px;
+        width: 46%;
+    }
+    .technologies>div>p, .industries>div>p {
+        font-size: 0.8rem;
+    }
+    .technologies>div>img, .industries>div>img {
+        width: 30px;
+    }
 }
 
 @media (max-width: 360px) {
     .image_with_para_parent {
         margin-top: 1rem;
-        /* padding: 0 1rem; */
         padding: 0;
         grid-row-gap: 1rem;
     }
@@ -1141,14 +1178,24 @@ section .p1 p, section .p2 p {
         text-align: start;
         margin-top: 0.5rem;
     }
+    .functionality_div>div>img {
+        width: 4rem;
+    }
     .portfolio_desc {
         font-size: 12px;
         padding: 0 2rem;
         text-align: start;
         margin-top: 0.5rem;
     }
-    .portfolio_child {
+    .portfolio_child, .how_we_work_heading, .technologies_desc, .industries_desc {
         font-size: 16px;
+    }
+    .how_we_work_desc {
+        font-size: 13px;
+    }
+    .industries_header, .technologies_header {
+        justify-content: center;
+        font-size: 13px;
     }
     .contact-desc {
         font-size: 12px;
@@ -1164,7 +1211,7 @@ section .p1 p, section .p2 p {
         font-size: 16px;
     }
     .description {
-        font-size: 12px;
+        font-size: 11px;
     }
     #list__func {
         font-size: 12px;
@@ -1188,7 +1235,7 @@ section .p1 p, section .p2 p {
         margin-top: 0.5rem;
     }
     .about_us {
-        margin-top: 9rem;
+        margin-top: 8rem;
     }
     section .p1 {
         font-size: 16px;
@@ -1205,6 +1252,9 @@ section .p1 p, section .p2 p {
         margin-top: 0.5rem;
         text-align: start;
     }
+    .downImg_section {
+        margin-top: 1rem;
+    }
     .downImg_container {
         grid-row-gap: 1rem;
     }
@@ -1212,7 +1262,7 @@ section .p1 p, section .p2 p {
         width: 30px;
     }
     .basic_info {
-        font-size: 16px;
+        font-size: 14px;
     }
     .img-con img {
         width: 3rem;
@@ -1226,6 +1276,7 @@ section .p1 p, section .p2 p {
     }
     .functionality_div_parent {
         padding: 0;
+        margin-top: 1rem;
     }
     .short_desc {
         width: 100%;
@@ -1233,6 +1284,7 @@ section .p1 p, section .p2 p {
     .functionality_div {
         width: 100%;
         height: 95px;
+        justify-content: space-around;
     }
     .brand_container>div>img {
         width: 72%;
@@ -1244,10 +1296,48 @@ section .p1 p, section .p2 p {
     .acccordian_self-made {
         padding: 0rem 2rem 2rem 3rem;
     }
-    /* .some_detail_description {
-        height: 40px;
-    } */
-    /* .last_address {
-        margin-left: 0.5rem;
-    } */
+    .portfolio_child {
+        font-size: 16px;
+    }
+    .how_we_work {
+        margin-top: 2rem;
+    }
+    .business_card {
+        padding: 0 2rem;
+        grid-row-gap: 1rem;
+        margin-top: 1rem;
+    }
+    .business_card>div {
+        width: 100%;
+        padding: 1rem;
+    }
+    .business_card>div>p:nth-child(1) {
+        font-size: 0.8rem;
+    }
+    .business_card>div>p:nth-child(2) {
+        font-size: 0.8rem;
+    }
+    .business_card>div>p:nth-child(3) {
+        font-size: 0.7rem;
+    }
+    .technologies_we_use, .industries_we_use {
+        margin-top: 2rem;
+    }
+    .technologies, .industries {
+        margin-top: 1rem;
+    }
+    .technologies>div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .technologies>div, .industries>div {
+        padding: 12px;
+        width: 46%;
+    }
+    .technologies>div>p, .industries>div>p {
+        font-size: 0.8rem;
+    }
+    .technologies>div>img, .industries>div>img {
+        width: 30px;
+    }
 }
