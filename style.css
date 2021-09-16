@@ -6,7 +6,7 @@
 
 p {
     margin-bottom: 0 !important;
-    font-family: 'Roboto';
+    font-family: 'Roboto' !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -529,7 +529,6 @@ section .p1 p, section .p2 p {
     display: flex;
     justify-content: flex-start;
     font: 20px bold;
-    text-transform: capitalize;
     margin-top: 0.5rem;
 }
 
