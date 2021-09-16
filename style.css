@@ -9,10 +9,15 @@ p {
     font-family: 'Roboto';
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto' !important;
+}
+
 ul {
     padding-left: 0 !important;
     margin-left: 0 !important;
     margin-bottom: 0 !important;
+    font-family: 'Roboto' !important;
 }
 
 body {
@@ -90,16 +95,14 @@ body {
 }
 
 section .p1, section .p2 {
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     text-transform: capitalize;
     color: #339C2A;
     text-align: center;
 }
 
 section .p2 {
-    font-size: 18px;
-    font-weight: normal;
+    font: 18px normal;
     color: #3A3A3A;
     margin-top: 0.5rem;
     text-align: justify;
@@ -113,8 +116,7 @@ section .p1 p, section .p2 p {
     margin-top: 2rem;
 }
 
-.basic_intro_child,
-.two_paragraph_child {
+.basic_intro_child, .two_paragraph_child {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -123,8 +125,7 @@ section .p1 p, section .p2 p {
 }
 
 .rise_to_height {
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     color: #339C2A;
     text-align: center;
 }
@@ -137,8 +138,7 @@ section .p1 p, section .p2 p {
     text-align: justify;
 }
 
-.two_paragraph, .about_us,
-.portfolio, .last-section {
+.two_paragraph, .about_us, .portfolio, .last-section {
     margin-top: 3rem;
 }
 
@@ -149,14 +149,13 @@ section .p1 p, section .p2 p {
     margin-top: 3rem;
 }
 
-.downImg_container,
-.functionality_div_parent {
+.downImg_container, .functionality_div_parent {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
-    grid-row-gap: 3rem;
+    grid-row-gap: 2rem;
     padding: 0 2rem;
+    justify-content: space-around;
+    margin-top: 1rem;
 }
 
 .img_container div:nth-child(2) {
@@ -178,8 +177,7 @@ section .p1 p, section .p2 p {
     margin: 0;
 }
 
-.img_container,
-.functionality_div {
+.img_container, .functionality_div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -187,16 +185,14 @@ section .p1 p, section .p2 p {
 }
 
 .basic_info {
-    font-family: 'Roboto';
     font-weight: 500;
+    font-size: 22px;
     line-height: 32px;
     text-transform: capitalize;
     color: #3A3A3A;
-    font-size: 22px;
 }
 
 .advanced_info {
-    font-family: 'Roboto';
     font-size: 15px;
     line-height: 150%;
     text-transform: capitalize;
@@ -204,15 +200,13 @@ section .p1 p, section .p2 p {
 }
 
 .number_div {
-    font-family: 'Roboto';
-    font-weight: 500;
     text-transform: capitalize;
     color: #3A3A3A;
+    font-weight: 500;
     font-size: 22px;
 }
 
 .description {
-    font-family: 'Roboto';
     font-size: 15px;
     line-height: 150%;
     text-transform: capitalize;
@@ -225,11 +219,11 @@ section .p1 p, section .p2 p {
     display: flex;
     flex-direction: column;
     grid-row-gap: 1rem;
+    margin-top: 3rem;
 }
 
 #list__func {
     padding-left: 1rem !important;
-    font-family: 'Roboto';
     font-size: 15px;
     line-height: 150%;
     text-transform: capitalize;
@@ -242,9 +236,7 @@ section .p1 p, section .p2 p {
 
 .why_we_heading {
     text-align: center;
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     text-transform: capitalize;
     color: #339C2A;
     text-align: center;
@@ -252,7 +244,6 @@ section .p1 p, section .p2 p {
 
 .why-we_ans {
     text-align: center;
-    font-family: 'Roboto';
     font-size: 18px;
     text-transform: capitalize;
     color: #3A3A3A;
@@ -442,16 +433,13 @@ section .p1 p, section .p2 p {
 }
 
 .about_us_heading {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     text-transform: capitalize;
     color: #339C2A;
     text-align: center;
 }
 
-.about_us_paragraph,
-.portfolio_desc {
+.about_us_paragraph, .portfolio_desc {
     font-size: 18px;
     text-transform: capitalize;
     text-align: justify;
@@ -461,15 +449,14 @@ section .p1 p, section .p2 p {
 }
 
 .portfolio_child {
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     text-transform: capitalize;
     color: #339C2A;
     text-align: center;
 }
 
 .how_we_work {
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -477,15 +464,13 @@ section .p1 p, section .p2 p {
 }
 
 .how_we_work_heading {
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     text-transform: capitalize;
     color: #339C2A;
 }
 
 .how_we_work_desc {
-    font-weight: bold;
-    font-size: 24px;
+    font: 24px bold;
     text-transform: capitalize;
     color: black;
     margin-top: 0.5rem;
@@ -506,14 +491,12 @@ section .p1 p, section .p2 p {
 }
 
 .business_card>div>p:nth-child(1) {
-    font-size: 1.7rem;
-    font-weight: bold;
+    font: 1.7rem bold;
     text-transform: capitalize;
 }
 
 .business_card>div>p:nth-child(2) {
-    font-size: 1.3rem;
-    font-weight: bold;
+    font: 1.3rem bold;
     text-transform: capitalize;
 }
 
@@ -539,8 +522,7 @@ section .p1 p, section .p2 p {
 }
 
 .technologies_desc, .industries_desc {
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     text-transform: capitalize;
     color: #339C2A;
     display: flex;
@@ -551,8 +533,7 @@ section .p1 p, section .p2 p {
     padding: 0 5rem;
     display: flex;
     justify-content: flex-start;
-    font-weight: bold;
-    font-size: 20px;
+    font: 20px bold;
     text-transform: capitalize;
     margin-top: 0.5rem;
 }
@@ -579,8 +560,7 @@ section .p1 p, section .p2 p {
 /* last section */
 
 .contact {
-    font-weight: bold;
-    font-size: 30px;
+    font: 30px bold;
     color: #339C2A;
     text-align: center;
 }
@@ -616,10 +596,8 @@ section .p1 p, section .p2 p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 500;
-    font-size: 15px;
+    font: 15px 500;
     line-height: 150%;
-    /* identical to box height, or 48px */
     text-align: center;
     text-transform: capitalize;
     color: #A8A8A8;
@@ -645,10 +623,7 @@ section .p1 p, section .p2 p {
 /* responsiveness */
 
 @media (max-width: 992px) {
-    .img_container div:nth-child(2) {
-        width: 74%;
-    }
-    .functionality_div div:nth-child(2) {
+    .img_container div:nth-child(2), .functionality_div div:nth-child(2) {
         width: 74%;
     }
     .brand_container {
@@ -675,19 +650,16 @@ section .p1 p, section .p2 p {
         margin-top: 0.5rem;
         text-align: justify;
     }
-    .two_paragraph {
-        margin-top: 2rem;
-    }
     section .p2 {
         padding: 0px 2rem;
         margin-top: 0.5rem;
         text-align: justify;
     }
     .why-we_ans {
-        padding: 0 0rem;
+        padding: 0;
         margin-top: 0.5rem;
     }
-    .portfolio {
+    .portfolio, .last-section, .two_paragraph {
         margin-top: 2rem;
     }
     .portfolio_desc {
@@ -695,13 +667,7 @@ section .p1 p, section .p2 p {
         margin-top: 0.5rem;
         text-align: justify;
     }
-    .last-section {
-        margin-top: 2rem;
-    }
-    .contact-desc {
-        margin-top: 0.5rem;
-    }
-    .image_with_para_parent {
+    .contact-desc, .image_with_para_parent {
         margin-top: 0.5rem;
     }
 }
@@ -710,7 +676,7 @@ section .p1 p, section .p2 p {
     .navbar_parent {
         display: none;
     }
-    .basic_intro_child {
+    .basic_intro_child, .functionality_container {
         padding: 0rem 2rem;
     }
     .basic_intro_desc {
@@ -738,6 +704,7 @@ section .p1 p, section .p2 p {
     }
     .ham-toggle {
         display: flex;
+        top: 1.5rem;
     }
     .two_paragraph, .portfolio, .last-section {
         margin-top: 2rem;
@@ -757,10 +724,7 @@ section .p1 p, section .p2 p {
         margin-top: 4rem;
         font-size: 25px;
     }
-    .about_us_paragraph,
-    .portfolio_desc,
-    section .p2,
-    .contact-desc {
+    .about_us_paragraph, .portfolio_desc, section .p2, .contact-desc {
         padding: 0 2rem;
         font-size: 20px;
         margin-top: 0.5rem;
@@ -768,12 +732,10 @@ section .p1 p, section .p2 p {
     section .p2 {
         padding: 0;
     }
-    .portfolio_child,
-    section .p1 {
+    .portfolio_child, section .p1 {
         font-size: 25px;
     }
-    .img-con img,
-    .functionality_div>div>img {
+    .img-con img, .functionality_div>div>img {
         width: 75px;
     }
     .img_container, .functionality_div {
@@ -785,17 +747,13 @@ section .p1 p, section .p2 p {
     .description {
         font-size: 15px;
     }
-    .functionality_container {
-        padding: 0rem 2rem;
-    }
     .brand_container>div {
         width: 73px;
     }
     .image_with_para>div>img {
         width: 70px;
     }
-    .img_container div:nth-child(2),
-    .functionality_div div:nth-child(2) {
+    .img_container div:nth-child(2), .functionality_div div:nth-child(2) {
         width: 70%;
     }
     .functionality_div_parent {
@@ -813,11 +771,7 @@ section .p1 p, section .p2 p {
         width: 100%;
         padding: 1rem;
     }
-    .business_card>div>p:nth-child(1),
-    .business_card>div>p:nth-child(2),
-    .business_card>div>p:nth-child(3),
-    .how_we_work_desc
-     {
+    .business_card>div>p:nth-child(1), .business_card>div>p:nth-child(2), .business_card>div>p:nth-child(3), .how_we_work_desc {
         font-size: 20px;
     }
     .technologies_we_use, .industries_we_use {
@@ -849,12 +803,16 @@ section .p1 p, section .p2 p {
         justify-content: center;
         font-size: 20px;
     }
+    .shethink_logo {
+        width: 80px;
+        height: 70px;
+    }
+    .main_navbar {
+        height: 70px;
+    }
 }
 
 @media (max-width: 576px) {
-    section .p1 {
-        font-size: 20px;
-    }
     section .p2 {
         padding: 0px;
         font-size: 16px;
@@ -864,45 +822,31 @@ section .p1 p, section .p2 p {
     .basic_intro_child {
         padding: 0 2rem;
     }
-    .navbar_items a {
+    .navbar_items a, .advanced_info, .description {
         font-size: 14px;
-    }
-    .rise_to_height {
-        font-size: 20px;
     }
     .basic_intro_desc {
         font-size: 16px;
         text-align: start;
         margin-top: 0.5rem;
     }
-    .why_we_heading,
-    .basic_info {
-        font-size: 20px;
-    }
     .about_us {
         margin-top: 4rem;
     }
-    .portfolio {
+    .portfolio, .two_paragraph, .technologies_we_use, .industries_we_use, .last-section {
         margin-top: 2rem;
     }
-    .portfolio, .how_we_work {
+    .portfolio, .how_we_work, .div_4, .downImg_section {
         margin-top: 1rem;
-    }
-    .advanced_info {
-        font-size: 14px;
     }
     .img_container {
         width: 100%;
     }
-    .img-con img,
-    .functionality_div>div>img {
+    .img-con img, .functionality_div>div>img {
         width: 4rem;
     }
     .first_img img {
         width: 42px;
-    }
-    .img_container div:nth-child(2) {
-        width: 74%;
     }
     .corousal {
         height: 329px;
@@ -913,15 +857,8 @@ section .p1 p, section .p2 p {
     .functionality_container {
         padding: 0rem 2.5rem;
     }
-    .functionality_div_parent {
-        padding: 0;
-    }
-    .div_4 {
-        margin-top: 1rem;
-    }
     .functionality_div {
         width: 100%;
-        height: 84px;
     }
     .why-we_ans {
         padding: 0;
@@ -929,24 +866,13 @@ section .p1 p, section .p2 p {
         text-align: start;
         margin-top: 0.5rem;
     }
-    .two_paragraph {
-        margin-top: 2rem;
-    }
-    .about_us_heading, .portfolio_child {
+    .about_us_heading, .portfolio_child, .number_div, .portfolio_child, .how_we_work_heading, .technologies_desc, .industries_desc, section .p1, .why_we_heading, .basic_info, .rise_to_height {
         font-size: 20px;
     }
-    .description {
-        font-size: 14px;
-    }
-    .short_desc,
-    .functionality_div div:nth-child(2) {
+    .short_desc, .functionality_div div:nth-child(2), .img_container div:nth-child(2) {
         width: 74%;
     }
-    .number_div {
-        font-size: 20px;
-    }
-    .portfolio_desc,
-    .about_us_paragraph {
+    .portfolio_desc, .about_us_paragraph {
         padding: 0 2rem;
         font-size: 16px;
         margin-top: 0.5rem;
@@ -963,7 +889,7 @@ section .p1 p, section .p2 p {
     .image_with_para>div>img {
         width: 26px;
     }
-    .some_detail, .some_detail_description  {
+    .some_detail, .some_detail_description {
         font-size: 10px;
     }
     .line {
@@ -977,9 +903,6 @@ section .p1 p, section .p2 p {
         padding: 0 1rem;
         grid-row-gap: 1rem;
     }
-    .downImg_section {
-        margin-top: 1rem;
-    }
     .business_card {
         padding: 0 2rem;
         grid-row-gap: 1rem;
@@ -989,11 +912,8 @@ section .p1 p, section .p2 p {
         width: 100%;
         padding: 1rem;
     }
-    .business_card>div>p:nth-child(1), .business_card>div>p:nth-child(2), .business_card>div>p:nth-child(3)  {
+    .business_card>div>p:nth-child(1), .business_card>div>p:nth-child(2), .business_card>div>p:nth-child(3) {
         font-size: 1rem;
-    }
-    .technologies_we_use, .industries_we_use, .last-section {
-        margin-top: 2rem;
     }
     .technologies, .industries {
         margin-top: 1rem;
@@ -1013,9 +933,6 @@ section .p1 p, section .p2 p {
     .technologies>div>img, .industries>div>img {
         width: 30px;
     }
-    .portfolio_child, .how_we_work_heading, .technologies_desc, .industries_desc {
-        font-size: 20px;
-    }
     .how_we_work_desc {
         font-size: 16px;
     }
@@ -1024,6 +941,7 @@ section .p1 p, section .p2 p {
         justify-content: center;
         font-size: 16px;
     }
+    
 }
 
 @media (max-width: 360px) {
@@ -1038,9 +956,6 @@ section .p1 p, section .p2 p {
     .brand_container {
         padding: 30px;
     }
-    .ham-toggle {
-        top: 2.2rem;
-    }
     .corousal {
         height: 200px;
     }
@@ -1050,13 +965,13 @@ section .p1 p, section .p2 p {
     .functionality_div>div>img {
         width: 4rem;
     }
-    .portfolio_desc, .about_us_paragraph,.contact-desc {
+    .portfolio_desc, .about_us_paragraph, .contact-desc {
         font-size: 12px;
         padding: 0 2rem;
         text-align: start;
         margin-top: 0.5rem;
     }
-    .portfolio_child, .how_we_work_heading, .technologies_desc, .industries_desc, .why_we_heading, .about_us_heading, .number_div, .portfolio_child, section .p1 {
+    .portfolio_child, .how_we_work_heading, .technologies_desc, .industries_desc, .why_we_heading, .about_us_heading, .portfolio_child, section .p1 {
         font-size: 16px;
     }
     .business_card>div>p:nth-child(1), .business_card>div>p:nth-child(2), .technologies>div>p, .industries>div>p {
@@ -1080,7 +995,7 @@ section .p1 p, section .p2 p {
     .image_with_para, .short_desc {
         width: 100%;
     }
-    .technologies_we_use, .industries_we_use, .how_we_work, .basic_intro, .portfolio, .two_paragraph {
+    .technologies_we_use, .industries_we_use, .how_we_work, .basic_intro, .portfolio, .two_paragraph, .functionality_container, .about_us {
         margin-top: 2rem;
     }
     .technologies, .industries, .downImg_section {
@@ -1101,9 +1016,6 @@ section .p1 p, section .p2 p {
         display: flex;
         justify-content: center;
     }
-    .about_us {
-        margin-top: 4rem;
-    }
     .second_image {
         transform: translateY(1rem);
     }
@@ -1117,20 +1029,11 @@ section .p1 p, section .p2 p {
     .img-con.first_img img {
         width: 30px;
     }
-    .basic_info {
+    .basic_info, .number_div {
         font-size: 14px;
     }
     .img-con img {
         width: 3rem;
-    }
-    .functionality_div_parent {
-        padding: 0;
-        margin-top: 1rem;
-    }
-    .functionality_div {
-        width: 100%;
-        height: 95px;
-        justify-content: space-around;
     }
     .brand_container>div>img {
         width: 72%;
@@ -1142,14 +1045,10 @@ section .p1 p, section .p2 p {
     .acccordian_self-made {
         padding: 0rem 2rem 2rem 3rem;
     }
-    .business_card,
-    .functionality_container {
+    .business_card {
         padding: 0 2rem;
         grid-row-gap: 1rem;
         margin-top: 1rem;
-    }
-    .functionality_container {
-        margin-top: 2rem;
     }
     .business_card>div {
         width: 100%;
@@ -1168,5 +1067,13 @@ section .p1 p, section .p2 p {
     }
     .technologies>div>img, .industries>div>img {
         width: 30px;
+    }
+    .corousal_button-right {
+        right: 14px;
+        width: 33px;
+        height: 33px;
+    }
+    .div_4 {
+        margin-top: 0;
     }
 }
